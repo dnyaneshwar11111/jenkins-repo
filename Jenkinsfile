@@ -1,12 +1,7 @@
 pipeline {
     agent {
-
-    label {
             label 'built-in'
-            customWorkspace '/mnt/project'
-          }
     }
-
     stages {
         stage ('Compile Stage') {
 
